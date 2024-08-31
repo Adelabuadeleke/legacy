@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Almarai", Arial, Helvetica, sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 100vh; /* {px, rem, vh, vw, em,} cm, mm, m  */
+  background: url("../img/legacy.png") center no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  color: #ffffff; /* hex*/
+  /* color: white; */
+  /* color: rgb(288, 288, 288); rgb */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 75px 219px 0px 239px;
+}
+ul {
+  display: flex;
+}
+
+ul > li {
+  margin-right: 34.17px;
+  list-style: none;
+  /* font-family: Almarai; */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17.86px;
+  /* text-align: left; */
+}
+
+nav > button {
+  width: 177px;
+  height: 63px;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 86px;
+  border: none;
+  /* font-family: Almarai; */
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17.86px;
+}
+
+nav > p {
+  /* font-family: Almarai; */
+  font-size: 24.09px;
+  font-weight: 700;
+  line-height: 26.89px;
+}
+
+.header_inner {
+  /* border: 1px solid red; */
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner_body {
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inner_body > h2 {
+  /* font-family: Almarai; */
+  font-size: 54.09px;
+  font-weight: 700;
+  line-height: 60.36px;
+  text-align: center;
+  margin-bottom: 29px;
+}
+
+.inner_body > p {
+  /* font-family: Almarai; */
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 26.78px;
+  text-align: center;
+  margin-bottom: 85px;
+}
+
+.inner_body > a {
+  text-decoration: none;
+  width: 222px;
+  height: 72px;
+  /* padding: 10px; */
+  gap: 10px;
+  border-radius: 86px;
+  /* opacity: 0px; */
+  background: #0f4d3f;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* critical aspects */
+
+section.critical_aspect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 230px 70px 265px 70px;
+}
+
+.inner_critical {
+  display: flex;
+  background: #0f4d3f;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.inner_text {
+  padding: 218px 0px 57px 72px;
+  color: #ffffff;
+}
+
+.inner_text > small {
+  /* font-family: Almarai; */
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 26.78px;
+  /* text-align: left; */
+}
+
+.inner_text > h2 {
+  margin-top: 14px;
+  /* font-family: Almarai; */
+  font-size: 48.65px;
+  font-weight: 700;
+  line-height: 54.29px;
+  /* text-align: left; */
+}
+
+.inner_img {
+  padding: 29px 0 0 0;
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  /* background: red; */
+}
+
+.inner_img > img {
+  height: 378px;
+}
+
+.shalaye_title {
+  margin-bottom: 132px;
+  color: #603f2c;
+}
+
+.shalaye_title > h2,
+.shalaye_title > p {
+  text-align: center;
+}
+
+.shalaye_title > h2 {
+  /* font-family: Almarai; */
+  font-size: 54.09px;
+  font-weight: 700;
+  line-height: 60.36px;
+  margin-bottom: 39px;
+}
+
+.shalaye_title > p {
+  /* font-family: Almarai; */
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 26.78px;
+}
+
+article.shalaye_body {
+  padding: 0px 224.5px;
+}
+
+article.body_item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item_dets {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.item_dets > img {
+  height: 24px;
+  width: 24px;
+  margin-bottom: 12px;
+}
+
+.item_dets > h3 {
+  margin-bottom: 12px;
+  font-family: Almarai;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22.32px;
+  /* text-align: left; */
+  color: #603f2c;
+}
+
+.item_dets > p {
+  /* font-family: Almarai; */
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 17.86px;
+  /* text-align: left; */
+  color: #603f2c;
+}
+
+article.body_item:nth-child(1),
+article.body_item:nth-child(2),
+article.body_item:nth-child(3) {
+  margin-bottom: 235px;
+}
+
+article.body_item:nth-child(4) {
+  margin-bottom: 400px;
+}
+
+article.body_item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+/* consultation */
+.consultation {
+  background: #0f4d3f;
+  padding-top: 162px;
+  border: none;
+}
+
+.consultation_title {
+  color: #ffffff;
+}
+
+.consultation_title > h2 {
+  /* font-family: Almarai; */
+  font-size: 54.09px;
+  font-weight: 700;
+  line-height: 60.36px;
+  text-align: center;
+  margin-bottom: 17px;
+}
+
+.consultation_title > p {
+  /* font-family: Almarai; */
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 26.78px;
+  text-align: center;
+  margin-bottom: 68px;
+}
+
+.consultation_input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 122px;
+}
+
+.consultation_input_item {
+  display: flex;
+  justify-content: space-between;
+  width: 516px;
+  background: #ede7e3;
+  border-radius: 86px;
+}
+
+.consultation_input_item > button {
+  /* width: Fixed (222px)px; */
+  /* height: Fixed (56px)px; */
+  padding: 10px;
+  gap: 10px;
+  border-radius: 86px;
+  background: #b6caeb;
+  border: none;
+  color: #0f4d3f;
+  font-family: Almarai;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17.86px;
+  /* margin-left: 5px; */
+}
+
+.consultation_input_item > input {
+  background: transparent;
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 0 10px;
+}
+
+.consultation_input_item > input::placeholder {
+  /* font-family: Almarai; */
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17.86px;
+  /* text-align: left; */
+  color: #a98f7f;
+}
+
+.consultation_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 140px;
+}
+
+.consultation_inner_imgs {
+  position: relative;
+}
+
+#cresent {
+  position: absolute;
+  top: -150px;
+  right: -200px;
+  /* margin-right: -100px; */
+}
+
+#flower {
+  position: absolute;
+  bottom: -158px;
+  left: -150px;
+}
+
+footer {
+  text-align: center;
+  color: #ffffff;
+  background: #0f4d3f;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  border: none;
+}

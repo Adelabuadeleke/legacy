@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
 
+html,
 body {
   margin: 0;
   padding: 0;
   font-family: "Almarai", Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 
 p,
@@ -383,7 +385,7 @@ aside> ul> li {
     /* font-family: Almarai; */
     font-size: 24px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 24px;
     text-align: center;
     margin-bottom: 29px;
   }
@@ -392,7 +394,8 @@ aside> ul> li {
     /* font-family: Almarai; */
     font-size: 12px;
     font-weight: 300;
-    line-height: 20px;
+    line-height: 12px;
+    max-width: 70%;
     text-align: center;
     margin-bottom: 85px;
   }
@@ -969,6 +972,13 @@ aside> ul> li {
 }
 
 @media screen and (min-width: 1200px) {
+  .critical_shalaye {
+    background: url("../img/curly_arrow.png") center no-repeat;
+    /* background-position: 53% 60%; */
+    background-position: 53% 61%;
+    background-size: 22% 65%;
+  }
+
   nav {
     padding: 75px 219px 0px 239px;
   }
@@ -1054,15 +1064,17 @@ aside> ul> li {
 @media screen and (min-width: 1440px) {
   .critical_shalaye {
     background: url("../img/curly_arrow.png") center no-repeat;
-    background-position: 53% 60%;
+    /* background-position: 53% 60%; */
+    background-position: 53% 61%;
+    background-size: 22% 65%;
   }
 
   #cresent {
     display: initial;
     position: absolute;
-    top: -150px;
+    top: -180px;
     right: -200px;
-    width: unset;
+    width: 350px;
     /* margin-right: -100px; */
   }
 

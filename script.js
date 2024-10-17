@@ -30,9 +30,13 @@ function closeSidebar() {
    // stagger sidebar contents
   tl.to(".sidebar .links .link_item", {
    opacity: 0,    
+   delay: 1,
    y: 20,          
-   stagger: 0.2,  
-   duration: 1, 
+   stagger: {
+    each: 0.2,   
+    from: "end"  
+  },
+   duration: 0.5, 
    ease: "power2.out"
  }, "-=0.5");
 
@@ -44,10 +48,3 @@ function closeSidebar() {
 
 toggleBtn.addEventListener('click', showSidebar);
 closeBtn.addEventListener('click', closeSidebar);
-
-// gsap code!😋🤸🏾‍♂️🎡
-document.addEventListener("DOMContentLoaded", (event) => {
-
- //sequenced one-after-the-other
-});
-

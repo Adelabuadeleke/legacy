@@ -17,6 +17,19 @@ h6 {
   padding: 0;
 }
 
+/* text anim */
+span.word_wrap {
+  overflow: hidden;
+  display: inline-block;
+}
+
+[data-animation="heading"] span.word,
+[data-animation="paragraph"] span.word {
+  overflow-y: hidden;
+  position: relative;
+}
+/* ------- */
+
 header {
   height: 100vh; /* {px, rem, vh, vw, em,} cm, mm, m  */
   background: url("../img/legacy.png") center no-repeat;
@@ -152,6 +165,7 @@ article.body_item {
 /* responsiveness */
 @media screen and (min-width: 320px) {
   /* sidebar style */
+
   aside {
     background: #f5d867;
     width: 100%;
@@ -207,6 +221,10 @@ aside> ul> li {
     background: #0E0E52;
     color: white;
 } */
+
+  .links {
+    margin-top: 50px;
+  }
 
   .sidebar a {
     /* color: #0e0e52; */
@@ -550,6 +568,10 @@ aside> ul> li {
     padding-bottom: 25px;
     border: none;
     font-size: 0.5rem;
+  }
+
+  i.material-icons-sharp {
+    font-size: 30px;
   }
 }
 
